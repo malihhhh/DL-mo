@@ -1,7 +1,7 @@
 # DL-mo
 ## A benchmark study of deep learning based multi-omics data fusion methods for cancer
 ***
-![Multi-Omics](/img/Multi-Omics.jpg "Multi-Omics")  
+![Multi-Omics](/img/Fig1.jpg "Multi-Omics")  
 We here compare the performances of 10 deep learning methods in three contexts: 
 1. samples clustering from multi-omics simulated data
 2. ability to identify factors associated with survival or clinical annotations and metagenes associated with biological annotations (Reactome, GO, Hallmarks) in bulk multi-omics TCGA data from 10 cancer types.
