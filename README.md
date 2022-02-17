@@ -3,11 +3,11 @@
 ***
 ![Multi-Omics](./img/3.png "Multi-Omics")  
 We here compare the performances of 10 deep learning methods in three contexts: 
-1. samples clustering from multi-omics simulated data
-2. ability to identify factors associated with survival or clinical annotations and metagenes associated with biological annotations (Reactome, GO, Hallmarks) in bulk multi-omics TCGA data from 10 cancer types.
-3. cells clustering based on scRNA-seq and scATAC-seq data from three cell lines.       
+1. Simulated datasets
+2. Cancer datasets
+3. Single-cell datasets       
 
-We use `python` and `R` to code the programs.   
+We use `python` and `R` to code the programs.  The python scripts are in `./python-scripts/` folder .The R scripts are in `./R-scripts/` folder .
 ***
 ## 10 deep learning methods
 * [lfAE](./python-scripts/runCancerAE2.py)
@@ -19,7 +19,24 @@ We use `python` and `R` to code the programs.
 * [mmdVAE](./python-scripts/runCancerMMDVAE.py) 
 * [lfNN](./python-scripts/runCancerDNN.py) 
 * [efNN](./python-scripts/runCancerDNN.py)
-* [moGCN](./python-scripts/)
+* [moGCN](./python-scripts/MOGONET/main_mogonet_zly.py)
+***
+## Input data
+The data for python scripts is in `./python-scripts/data/` folder .The data for R scripts is in `./R-scripts/data/` folder .    
+For python-scripts,Simulated datasets are in `./python-scripts/data/simulations`,Cancer datasets are in `./python-scripts/data/cancer` ,Single-cell datasets are in `./python-scripts/data/single-cell`.
+***
+## python scripts
+Each of the three datasets above corresponds to a differnet python scripts in this repositiory:
+1. `runSimulations*.py`
+2. `runCancer*.py`
+3. `runSingle*.py`
+***
+## R scripts
+Each of the three datasets above corresponds to a differnet Jupyter notebook in this repositiory:
+1. `simulated*.ipynb`
+2. `cancer*.ipynb`
+3. `single-cell*.ipynb`
+
 ***
 ## Install the R software environment
 Use conda to create a new environment: `conda create -n momix -c conda-forge -c bioconda -c lcantini momix r-irkernel`
