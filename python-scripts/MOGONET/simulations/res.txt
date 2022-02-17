@@ -1,0 +1,35 @@
+Test ACC: 1.000
+Test F1 weighted: 1.000
+Test F1 macro: 1.000
+
+equal5
+
+Test ACC: 1.000
+Test F1 weighted: 1.000
+Test F1 macro: 1.000
+
+equal10
+
+Test ACC: 1.000
+Test F1 weighted: 1.000
+Test F1 macro: 1.000
+
+equal15
+
+Test ACC: 1.000
+Test F1 weighted: 1.000
+Test F1 macro: 1.000
+
+heterogeneous5
+
+Test ACC: 1.000
+Test F1 weighted: 1.000
+Test F1 macro: 1.000
+
+heterogeneous10
+
+Test ACC: 0.960
+Test F1 weighted: 0.960
+Test F1 macro: 0.833
+
+heterogeneous15
