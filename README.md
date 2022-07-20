@@ -9,17 +9,23 @@ We here compare the performances of 10 deep learning methods in three contexts:
 
 We use `python` and `R` to code the programs.  The python scripts are in `./python-scripts/` folder .The R scripts are in `./R-scripts/` folder .
 ***
-## 10 deep learning methods
+## 16 deep learning methods
 * [lfAE](./python-scripts/runCancerAE2.py)
 * [efAE](./python-scripts/runCancerAE.py) 
 * [lfDAE](./python-scripts/runCancerDAE2.py) 
 * [efDAE](./python-scripts/runCancerDAE.py) 
+* [lfVAE](./python-scripts/runCancerVAE2.py)
 * [efVAE](./python-scripts/runCancerVAE.py)
+* [lfSVAE](./python-scripts/runCancerSVAE2.py)
 * [efSVAE](./python-scripts/runCancerSVAE.py) 
-* [mmdVAE](./python-scripts/runCancerMMDVAE.py) 
+* [lfmmdVAE](./python-scripts/runCancerMMDVAE2.py) 
+* [efmmdVAE](./python-scripts/runCancerMMDVAE.py) 
 * [lfNN](./python-scripts/runCancerDNN.py) 
 * [efNN](./python-scripts/runCancerDNN.py)
+* [lfCNN](./python-scripts/runCancerCNN.py) 
+* [efCNN](./python-scripts/runCancerCNN.py)
 * [moGCN](./python-scripts/MOGONET/main_mogonet_zly.py)
+* [moGAT](./python-scripts/MOGONET/main_mogonet_zyh.py)
 ***
 ## Input data
 The data for python scripts is in `./python-scripts/data/` folder .The data for R scripts is in `./R-scripts/data/` folder .    
